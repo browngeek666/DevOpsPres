@@ -1,0 +1,53 @@
+Just as with any transformational and disruptive movement, DevOps can be misunderstood or mischaracterized. Here are some of the top DevOps myths.
+
+DevOps replaces Agile
+
+DevOps is absolutely compatible with Agile. In fact, DevOps is the logical continuation of the Agile journey that was started in 2001, because we now know that the real definition of “done” is not when development is done coding. Instead, code is only “done” when it has been fully tested and is operating in production as designed. (Note that Agile is not a prerequisite for adopting DevOps.)
+
+DevOps replaces ITIL
+
+Although some may view DevOps as backlash to ITIL (the IT Infrastructure Library) or ITSM (IT Service Management), DevOps and ITIL are compatible, too. ITIL and ITSM remain the best codifications of the processes that underpin IT Operations, and actually describe many of the capabilities needed in order for IT Operations to support a DevOps-style work stream.
+
+In order to accommodate the faster lead times and higher deployment frequencies associated with DevOps, many areas of the ITIL processes require automation, specifically around the change, configuration, and release processes. Because we also require fast detection and recovery when service incidents occur, the ITIL disciplines of service design and incident and problem management remain as relevant as ever.
+
+DevOps means NoOps
+
+DevOps is sometimes incorrectly interpreted to be NoOps (i.e., IT operations is entirely eliminated). However, more precisely, DevOps will often put more responsibility on development to do code deployments and maintain service levels. This merely means that development is taking over many of the IT Operations and operations engineering functions.
+
+In order to support fast lead times and enable developer productivity, DevOps does require many IT operations tasks to become self-service. In other words, instead of development opening up a work ticket and waiting for IT operations to complete the work, many of these activities will be automated so that developers can do it themselves (e.g. get a production-like dev environment or add a feature metric for production telemetry).
+
+DevOps is only for open source software
+
+Although many of the DevOps success stories take place in organizations using software such as the LAMP stack (Linux, Apache web server, MySQL database, PHP or Python or Perl), organizations are implementing DevOps patterns using Microsoft .NET, SAP, and even COBOL applications running on mainframes and HP LaserJet firmware.
+
+DevOps principles are universal, and they are largely independent of the underlying technology being used. Some of the DevOps patterns have specific technology requirements (e.g. able to support automated testing, able to expose configurations that can be checked into version control), which are often more prevalent in open source software.
+
+DevOps is just “infrastructure as code” or automation
+
+While many DevOps patterns require automation, DevOps also requires shared goals and shared pain throughout the IT value stream. This goes far beyond just automation.
+
+DevOps is only for startups and unicorns
+
+DevOps is applicable and relevant to any organization that must increase flow of planned work through development while maintaining quality, reliability, and security for the customer.
+
+In fact, DevOps is even more important for the horses than for the unicorns. After all, as Richard Foster states, “Of the Fortune 500 companies in 1955, 87 percent are gone. In 1958, the Fortune 500 tenure was 61 years; now it’s only 18 years.” (1)
+
+We know that the downward spiral happens to every IT organization. However, most enterprise IT organizations will come up with countless reasons why they cannot adopt DevOps, or why it is not relevant for them.
+
+One of the primary objections from horses is that all the unicorns (e.g. Google, Amazon, Twitter, Etsy) were born that way. In other words, unicorns were born doing DevOps.
+
+In actuality, virtually every DevOps unicorn was once a horse and had all the problems associated with being a horse:
+
+Amazon, up until 2001, ran on the OBIDOS content delivery system, which became so problematic and dangerous to maintain that CTO Werner Vogels transformed their entire organization and code to a service-oriented architecture. (2)
+Twitter struggled to scale capacity on their front-end monolithic Ruby on Rails system in 2009, starting a multiyear project to progressively re-architect and replace it. (3)
+LinkedIn, six months after their successful IPO in 2011, struggled with problematic deployments so painful that they launched Operation InVersion, a two-month feature freeze, allowing them to overhaul their compute environments, deployments, and architecture. (4)
+Etsy, in 2009, according to Michael Rembetsy, “had to come to grips that they were living in a sea of their own engineering filth,” dealing with problematic software deployments and technical debt. They committed themselves to a cultural transformation. (5)
+Facebook, in 2009, was at the breaking point for infrastructure operations. Barely able to keep up with user growth, code deployments were becoming increasingly dangerous and staff were continually firefighting. Jay Parikh and Pedro Canahuati started their transformation to make code safe to deploy again. (6)
+Simply put, all unicorns were once horses. DevOps is how any horse can become a unicorn, if they want to become one. And in fact, the list of enterprises adopting DevOps continues to grow. Christopher Little states, “If there’s anything that all horses [enterprise IT organizations] hate, it’s hearing stories about unicorns [DevOps shops]. Which is strange, because horses and unicorns are probably the same species. Unicorns are just horses with horns.”
+
+Richard Foster and Sarah Kaplan, Creative Destruction: Why Companies That Are Built to Last Underperform the Market—and How to Successfully Transform Them, (New York: Broadway Books, 2001).
+Jim Gray, “A Conversation with Werner Vogels: Learning from the Amazon Technology Platform,” Association for Computing Machinery website, June 4, 2006, http://queue.acm.org/detail.cfm?id=1142065.
+Raffi Krikorian, “Real-Time Systems at Twitter,” (Velocity Conference presentation), Slideshare website, June 26, 2012, http://www.slideshare.net/raffikrikorian/realtime-systems-at-twitter.
+Ashlee Vance, “Inside Operation InVersion, the Code Freeze That Saved LinkedIn,” Enterprise Tech (blog), Bloomberg BusinessWeek, April 10, 2013, http://www.businessweek.com/articles/2013-04-10/inside-operation-inversi....
+Michael Rembetsy and Patrick McDonnell, “Continuously Deploying Culture: Scaling Culture at Etsy,” (Velocity Europe Conference presentation), Slideshare website, October 4, 2012, http://www.slideshare.net/mcdonnps/continuously-deploying-culture-scalin....
+Pedro Canahuati, “From the Few to the Many: Scaling Ops at Facebook,” (OmniTI Surge Conference presentation), September 12, 2013, http://surge.omniti.com/2013/speakerslides/surge13_Scaling-Operations-Or....
